@@ -4,7 +4,7 @@ import Navber from "../Shared/Navber/Navber";
 
 const Root = () => {
     return (
-        <div>
+        <div className="">
             <Navber></Navber>
             <Outlet> </Outlet>
         </div>

@@ -1,10 +1,11 @@
-import Navber from "../../Shared/Navber/Navber";
+import Carousel from "./Carousel";
+
 
 
 const Home = () => {
     return (
         <div>
-            <Navber></Navber>
+            <Carousel></Carousel>
         </div>
     );
 };

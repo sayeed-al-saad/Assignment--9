@@ -1,11 +1,28 @@
+import { NavLink } from "react-router-dom";
 
 
 const Navber = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
-  <div className="flex-1">
+            <div className="navbar flex justify-between bg-base-100">
+  <div className="">
     <a className="btn btn-ghost text-xl">daisyUI</a>
+  </div>
+  <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1 space-x-3">
+        <li>
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="/about">About</NavLink>
+      </li>
+      <li>
+        <NavLink to="/career">Career</NavLink>
+      </li>
+      <li>
+        <NavLink to="/login">Login</NavLink>
+      </li>
+        </ul>
   </div>
   <div className="flex-none">
     <div className="dropdown dropdown-end">
@@ -38,6 +55,7 @@ const Navber = () => {
         </div>
       </div>
     </div>
+
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
