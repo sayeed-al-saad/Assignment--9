@@ -63,6 +63,19 @@
         "facilities": ["Living room", "Swimming pool", "Kitchen", "Library", "Courtyard"],
         "image": "city_center_inn.jpg",
         "view_property": "ViewProperty"
+      },
+      {
+        "id": 5,
+        "estate_title": "Historic City Center Inn",
+        "segment_name": "Hospitality",
+        "description": "A historic inn located in the heart of the city, featuring vintage decor and charm.",
+        "price": "$600,000",
+        "status": "sale",
+        "area": "4000 sqft",
+        "location": "Charleston, South Carolina",
+        "facilities": ["Living room", "Swimming pool", "Kitchen", "Library", "Courtyard"],
+        "image": "city_center_inn.jpg",
+        "view_property": "ViewProperty"
       }
 ]
   
