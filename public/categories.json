@@ -1,0 +1,68 @@
+[
+      {
+        "id": 1,
+        "estate_title": "Luxury Beachfront Hotel",
+        "segment_name": "Hospitality",
+        "description": "A luxurious beachfront hotel offering breathtaking views and premium amenities.",
+        "price": "$500,000",
+        "status": "sale",
+        "area": "5000 sqft",
+        "location": "Malibu, California",
+        "facilities": ["Living room", "Swimming pool", "Kitchen", "Spa", "Gym"],
+        "image": "beachfront_hotel.jpg",
+        "view_property": "ViewProperty"
+      },
+      {
+        "id": 2,
+        "estate_title": "Mountain Lodge Retreat",
+        "segment_name": "Hospitality",
+        "description": "A serene mountain lodge perfect for retreats and nature lovers.",
+        "price": "$300,000",
+        "status": "rent",
+        "area": "3500 sqft",
+        "location": "Aspen, Colorado",
+        "facilities": ["Living room", "Swimming pool", "Kitchen", "Fireplace", "Outdoor deck"],
+        "image": "mountain_lodge.jpg",
+        "view_property": "ViewProperty"
+      },
+      {
+        "id": 3,
+        "estate_title": "Downtown Boutique Hotel",
+        "segment_name": "Hospitality",
+        "description": "A stylish boutique hotel in the heart of the city, offering modern amenities.",
+        "price": "$750,000",
+        "status": "sale",
+        "area": "4500 sqft",
+        "location": "New York City, New York",
+        "facilities": ["Living room", "Swimming pool", "Kitchen", "Rooftop bar", "Conference rooms"],
+        "image": "downtown_boutique_hotel.jpg",
+        "view_property": "ViewProperty"
+      },
+      {
+        "id": 4,
+        "estate_title": "Tropical Island Guesthouse",
+        "segment_name": "Hospitality",
+        "description": "A charming guesthouse located on a private tropical island.",
+        "price": "$250,000",
+        "status": "rent",
+        "area": "2800 sqft",
+        "location": "Bahamas",
+        "facilities": ["Living room", "Swimming pool", "Kitchen", "Private beach access", "Garden"],
+        "image": "tropical_guesthouse.jpg",
+        "view_property": "ViewProperty"
+      },
+      {
+        "id": 5,
+        "estate_title": "Historic City Center Inn",
+        "segment_name": "Hospitality",
+        "description": "A historic inn located in the heart of the city, featuring vintage decor and charm.",
+        "price": "$600,000",
+        "status": "sale",
+        "area": "4000 sqft",
+        "location": "Charleston, South Carolina",
+        "facilities": ["Living room", "Swimming pool", "Kitchen", "Library", "Courtyard"],
+        "image": "city_center_inn.jpg",
+        "view_property": "ViewProperty"
+      }
+]
+  
