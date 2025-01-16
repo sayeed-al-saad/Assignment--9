@@ -10,9 +10,9 @@ const Home = () => {
     console.log(categories)
 
     return (
-        <div>
+        <div className="space-y-10">
             <Carousel></Carousel>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-3 place-items-center">
                 {
                     categories.map((acategories) => (<Hotels key={acategories.id} categories={acategories} ></Hotels>))
                 }
