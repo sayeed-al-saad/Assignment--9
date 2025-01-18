@@ -3,7 +3,8 @@ import Root from "../Layout/Root";
 import Login from "../Login/Login";
 import Register from "../Register/Register";
 import Home from "../Pages/Home/Home";
-import PrivateRoutes from "./PrivateRoutes";
+
+import Details from "../Pages/Details/Details";
 
 
 const router = createBrowserRouter([
@@ -26,7 +27,8 @@ const router = createBrowserRouter([
               },
             {
                 path: "/categories/:id",
-                element: <PrivateRoutes></PrivateRoutes>
+                element: <Details></Details>,
+                loader: () => fetch("/categories.json") 
             }  
         ]
     }

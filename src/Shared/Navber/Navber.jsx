@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navber = () => {
@@ -14,19 +14,13 @@ const Navber = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/about">About</NavLink>
-      </li>
-      <li>
-        <NavLink to="/career">Career</NavLink>
-      </li>
-      <li>
         <NavLink to="/login">Login</NavLink>
       </li>
         </ul>
   </div>
   <div className="flex-none gap-5">
     <div className="dropdown dropdown-end">
-      <button className="btn btn-primary">Login</button>
+      <Link to="/login"><button className="btn btn-primary">Login</button></Link>
     </div>
 
     <div className="dropdown dropdown-end">
