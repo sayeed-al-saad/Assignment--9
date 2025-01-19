@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Carousel = () => {
@@ -6,7 +7,7 @@ const Carousel = () => {
             <div className="carousel w-full h-[85vh] relative">
   <div id="item1" className="carousel-item w-full">
     <div className="w-full h-full absolute flex flex-col justify-center items-center">
-        <button className="btn btn-warning btn-outline">LET US GUIDE YOUR HOME</button>
+       <Link to="/login"> <button className="btn btn-warning btn-outline">LET US GUIDE YOUR HOME</button></Link>
     <p className="text-5xl font-bold text-gray-100 text-center">Discover a place you'll <br />
     love to live</p>
     </div>

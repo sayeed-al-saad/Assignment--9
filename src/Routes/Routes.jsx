@@ -5,6 +5,7 @@ import Register from "../Register/Register";
 import Home from "../Pages/Home/Home";
 
 import Details from "../Pages/Details/Details";
+import PrivateRoutes from "./PrivateRoutes";
 
 
 const router = createBrowserRouter([
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
               },
             {
                 path: "/categories/:id",
-                element: <Details></Details>,
+                element: <PrivateRoutes><Details></Details></PrivateRoutes>,
                 loader: () => fetch("/categories.json") 
             }  
         ]

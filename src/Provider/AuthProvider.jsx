@@ -32,7 +32,7 @@ const AuthProvider = ({children}) => {
         return () => {
           unSubscribe();
         };
-      }, []);
+      }, [auth]);
 
       const signIn = (email, password) => {
         setLoading(true)
