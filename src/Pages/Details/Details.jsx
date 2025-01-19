@@ -17,7 +17,7 @@ const Details = () => {
 
     return (
         <div className="mx-10 my-5">
-            <div className="grid grid-cols-4 gap-12">
+            <div className="grid lg:grid-cols-4 gap-12">
                 <div className="col-span-2">
                     <img className="object-cover rounded-md" src={category.image} alt="" />
                 </div>
@@ -28,7 +28,7 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-            <div className="my-10 flex justify-evenly">
+            <div className="my-10 lg:flex justify-evenly">
                 <div className="flex justify-center items-center gap-2 shadow-sm shadow-gray-800  p-5 rounded-xl hover:shadow-2xl">
                 <i className="text-3xl text-warning"><FaLocationDot /></i>
                 <p className="text-2xl text-warning font-semibold">{category.location}</p>

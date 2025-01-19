@@ -13,22 +13,22 @@ const Carousel = () => {
     </div>
     <img
       src="src/assets/image/pexels-donaldtong94-189333.jpg"
-      className="w-full " />
+      className="w-full object-cover " />
   </div>
   <div id="item2" className="carousel-item w-full">
     <img
       src="src/assets/image/pexels-jvdm-1457842.jpg"
-      className="w-full " />
+      className="w-full object-cover" />
   </div>
   <div id="item3" className="carousel-item w-full">
     <img
       src="src/assets/image/pexels-quark-studio-1159039-2506990.jpg"
-      className="w-full " />
+      className="w-full object-cover" />
   </div>
   <div id="item4" className="carousel-item w-full">
     <img
       src="src/assets/image/pexels-pixabay-271618.jpg"
-      className="w-full " />
+      className="w-full  object-cover" />
   </div>
 </div>
 <div className="flex w-full justify-center gap-2 py-2">
