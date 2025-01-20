@@ -17,7 +17,8 @@ const Register = () => {
 
         createUser(email, password)
         .then(result => {
-            console.log(result)
+            console.log(result);
+            alert('Sign In Succefull')
         } )
         .catch(error =>{
             console.error(error)

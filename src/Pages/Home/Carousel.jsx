@@ -12,22 +12,22 @@ const Carousel = () => {
     love to live</p>
     </div>
     <img
-      src="src/assets/image/pexels-donaldtong94-189333.jpg"
+      src="public/assets/image/pexels-donaldtong94-189333.jpg"
       className="w-full object-cover " />
   </div>
   <div id="item2" className="carousel-item w-full">
     <img
-      src="src/assets/image/pexels-jvdm-1457842.jpg"
+      src="public/assets/image/pexels-pixabay-258154.jpg"
       className="w-full object-cover" />
   </div>
   <div id="item3" className="carousel-item w-full">
     <img
-      src="src/assets/image/pexels-quark-studio-1159039-2506990.jpg"
+      src="public/assets/image/pexels-quark-studio-1159039-2506990.jpg"
       className="w-full object-cover" />
   </div>
   <div id="item4" className="carousel-item w-full">
     <img
-      src="src/assets/image/pexels-pixabay-271618.jpg"
+      src="public/assets/image/pexels-fotoaibe-1743229.jpg"
       className="w-full  object-cover" />
   </div>
 </div>
